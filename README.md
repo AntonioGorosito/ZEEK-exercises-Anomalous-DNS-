@@ -1,22 +1,7 @@
 # ZEEK-Exercises-Anomalous-DNS
 
 ## Objective
-This project aims to apply the knowledge I've gained in using Zeek to analyze network traffic and extract relevant information. In this work, I seek to put into practice what I've learned, especially in log analysis and the use of network monitoring tools. The goal is to demonstrate my skills in interpreting logs and using efficient commands to extract key information from network data.
-
-
-### Skills Learned
-
-- Advanced understanding of SIEM concepts and practical application.
-- Proficiency in analyzing and interpreting network logs.
-- Ability to generate and recognize attack signatures and patterns.
-- Enhanced knowledge of network protocols and security vulnerabilities.
-- Development of critical thinking and problem-solving skills in cybersecurity.
-
-### Tools Used
-
-- ZEEK Used for capturing and analyzing network traffic, generating detailed logs for investigation.
-- linux terminal Used to run analysis commands like cat, head, sort, and uniq.
-- Virtual Machine (VM) Set up to run Zeek and the necessary tools in a controlled environment.
+The objective of this scenario is to identify irregularities in DNS traffic that may signal potential attacks, allowing for timely intervention and enhanced network security.
 
 ## Steps
 1- The first thing I do is create Zeek logs from the PCAP file to begin investigating the alert. In this case, the alert indicates "Anomalous DNS Activity." I use the command:
